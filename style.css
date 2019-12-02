@@ -3,3 +3,27 @@ body {
     margin: auto;
     max-width: 45em;
 }
+
+header {
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(44, 62, 80, .15);
+    background: #228b22;
+}
+
+header input {
+    color: #fff;
+    text-indent: 1.5rem;
+    padding: 0 60px 0 0;
+    background: rgba(255, 255, 255, 2);
+    border-radius: 5px 25px 25px 5px;
+    border: 0;
+    height: 3rem;
+}
+
+header button {
+    border-radius: 25px;
+    background: #fff;
+    border: 0;
+    width: 3rem;
+    cursor: pointer;
+}
